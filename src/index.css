@@ -1,0 +1,35 @@
+:root {
+	font-family: Helvetica, system-ui, Avenir, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 500;
+	background-color: #f5f5f5;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #d4d4e2;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #c1bfbf;
+	border-radius: 99rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #e9e5e5;
+}
+
+::-webkit-scrollbar {
+	width: 0.4rem;
+	height: 0.4rem;
+}
